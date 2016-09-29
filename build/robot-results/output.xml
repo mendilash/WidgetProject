@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0 (Jython 2.7.0 on java1.8.0_73)" generated="20160928 22:35:36.306">
+<suite source="C:\Users\Mendi\Downloads\WidgetProject\src\test\acceptancetest" name="Acceptancetest" id="s1">
+<suite source="C:\Users\Mendi\Downloads\WidgetProject\src\test\acceptancetest\CustomWidgetTests.robot" name="CustomWidgetTests" id="s1-s1">
+<test name="Hexagon Is Selected Initially" id="s1-s1-t1">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.Main</arg>
+</arguments>
+<msg level="FAIL" timestamp="20160928 22:35:37.618">edu.jsu.mcis.Main</msg>
+<status endtime="20160928 22:35:37.618" starttime="20160928 22:35:37.587" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20160928 22:35:37.634" starttime="20160928 22:35:37.571" status="FAIL">edu.jsu.mcis.Main</status>
+</test>
+<test name="Octagon Is Selected After Center Click" id="s1-s1-t2">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.Main</arg>
+</arguments>
+<msg level="FAIL" timestamp="20160928 22:35:37.681">edu.jsu.mcis.Main</msg>
+<status endtime="20160928 22:35:37.681" starttime="20160928 22:35:37.650" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20160928 22:35:37.681" starttime="20160928 22:35:37.634" status="FAIL">edu.jsu.mcis.Main</status>
+</test>
+<test name="Widget Is Unchanged After Edge Click" id="s1-s1-t3">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.Main</arg>
+</arguments>
+<msg level="FAIL" timestamp="20160928 22:35:37.728">edu.jsu.mcis.Main</msg>
+<status endtime="20160928 22:35:37.728" starttime="20160928 22:35:37.712" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20160928 22:35:37.743" starttime="20160928 22:35:37.681" status="FAIL">edu.jsu.mcis.Main</status>
+</test>
+<test name="Widget Toggles With Successive Center Clicks" id="s1-s1-t4">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.Main</arg>
+</arguments>
+<msg level="FAIL" timestamp="20160928 22:35:37.790">edu.jsu.mcis.Main</msg>
+<status endtime="20160928 22:35:37.790" starttime="20160928 22:35:37.743" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20160928 22:35:37.806" starttime="20160928 22:35:37.743" status="FAIL">edu.jsu.mcis.Main</status>
+</test>
+<status endtime="20160928 22:35:37.806" starttime="20160928 22:35:36.759" status="FAIL"></status>
+</suite>
+<status endtime="20160928 22:35:37.821" starttime="20160928 22:35:36.353" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4">Critical Tests</stat>
+<stat pass="0" fail="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" name="Acceptancetest" id="s1">Acceptancetest</stat>
+<stat pass="0" fail="4" name="CustomWidgetTests" id="s1-s1">Acceptancetest.CustomWidgetTests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
